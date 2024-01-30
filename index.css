@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background: rgb(243 243 243);;
+    display: block;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.profile ,.logo {
+    min-width: 120px;
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 18px;
+    text-align: center;
+}
+.navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0px;
+    background: rgb(129, 129, 129);
+    height: 56px;
+    color: rgb(31, 31, 31);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #9c9c9c;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.sidepanel {
+    display: block;
+    margin: 0px;
+    width: 20%;
+    height: 100%;
+    background: rgb(238, 238, 238);;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.listcard {
+    height: 20px;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+.mainpanel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: calc(100vh - 56px);
+    color: rgb(31, 31, 31);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chartpanel {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tablepanel {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.rightpanel {
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+img {
+    height: 95%;
+    max-height: 100%;
+}
