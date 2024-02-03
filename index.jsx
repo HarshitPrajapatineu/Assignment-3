@@ -23,6 +23,7 @@ const SidePanel = (props) => {
             {
                 sidePanelList.map(item => <div className="listcard">{item}<hr></hr></div>)
             }
+            {props.children}
         </div>
     )
 }
@@ -43,6 +44,17 @@ const TablePanel = () => {
     )
 }
 
+const DetailCard = () => {
+    return(
+        <div className="detailcard">
+            <h3> Block</h3>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minus facere mollitia facilis nostrum laborum minima officiis 
+            tenetur suscipit praesentium? Officiis cumque optio eaque porro facilis quaerat natus iste libero.</p>
+        </div>
+    )
+}
+
 const MainPanel = (props) => {
     return (
         <div className="mainpanel">
@@ -57,7 +69,9 @@ const App = () => {
         <React.Fragment>
             <NavBar />
             <MainPanel >
-                <SidePanel />
+                <SidePanel> 
+                    <DetailCard/>
+                </SidePanel>
                 <div className="rightpanel">
                     <ChartPanel />
                     <TablePanel />

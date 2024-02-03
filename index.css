@@ -104,6 +104,18 @@ hr {
     flex-direction: column;
 }
 
+.detailcard {
+    border: #888888 solid 3px;
+    box-sizing: border-box;
+    white-space: wrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 100%;
+    height: auto;
+    align-content: center;
+    align-items: center;
+}
+
 img {
     height: 95%;
     max-height: 100%;
